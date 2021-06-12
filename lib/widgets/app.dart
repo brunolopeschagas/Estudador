@@ -1,6 +1,5 @@
+import 'package:estudador/widgets/splashscreen.dart';
 import 'package:flutter/material.dart';
-
-import 'home.dart';
 
 class App extends StatelessWidget {
   @override
@@ -11,7 +10,7 @@ class App extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomePage(title: 'Estudador'),
+      home: SplashScreenPage(),
     );
   }
 }
