@@ -27,4 +27,8 @@ class PlanoEstudoModel extends Model<PlanoEstudoModel> {
     json['nivelAtual'] = this.nivelAtual;
     return json;
   }
+
+  void adicionarNivel({NivelModel nivelModel}) {
+    niveis.add(nivelModel);
+  }
 }
